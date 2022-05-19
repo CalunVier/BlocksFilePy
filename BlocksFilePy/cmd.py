@@ -1,5 +1,5 @@
 import cmd
-from BlocksFileCore import BlocksFileCore
+from core import BlocksFileCore
 
 class BlocksFileCMD(cmd.Cmd):
     prompt = 'BLOCKSFILE> '

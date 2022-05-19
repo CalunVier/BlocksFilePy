@@ -1,9 +1,6 @@
 # BlocksFilePy
 基于python的简易python分块加密存储程序
 
-## 目录
-
-[toc]
 
 ## 系统的文件构成与定义
 
@@ -93,7 +90,7 @@ FSRootDir
 ### 基于JSON的MFT文件
 基本格式
 
-```json
+```js
 {
     "HEAD":{
         "HASH-METHOD": 0,
@@ -195,7 +192,7 @@ FSRootDir
 - help 帮助
 
 ### config包含
-```json
+```js
 {
     "method": "method", // 存放块文件的目录
     "mft": "",
