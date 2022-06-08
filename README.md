@@ -90,7 +90,7 @@ FSRootDir
 ### 基于JSON的MFT文件
 基本格式
 
-```js
+```javascript
 {
     "HEAD":{
         "HASH-METHOD": 0,
@@ -118,7 +118,7 @@ FSRootDir
 ### 基于JSON的config文件
 基本格式
 
-```json
+```javascript
 {
     "OPTION_KEY": "VALUE"
     // etc.
@@ -192,7 +192,7 @@ FSRootDir
 - help 帮助
 
 ### config包含
-```js
+```javascript
 {
     "method": "method", // 存放块文件的目录
     "mft": "",
