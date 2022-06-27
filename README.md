@@ -95,12 +95,12 @@ FSRootDir
     "HEAD":{
         "HASH-METHOD": 0,
         "ENCRYPT_METHOD": 0,
-        "MAX_BLOCK_SIZE": 10240, // 单位：字节。10240是10KB
+        "MAX_BLOCK_SIZE": 4096, // 单位：字节。10240是10KB
         "LEVEL_SIZE": 8,    // 文件系统中每级指针的长度，对于8，则有2个16进制位标识，其应当是4的倍数。
-        "POINT_SIZE": 16,   // 块指针长度，应当是LEVEL_SIZE的倍数[8, 16, 32, 64]
+        "POINT_SIZE": 32,   // 块指针长度，应当是LEVEL_SIZE的倍数[8, 16, 32, 64]
         "PUBLICK_KEY":""	// 如果需要
 	},
-	"BODY":[
+    "BODY":[
         [
             0,		// 文件类型
             123, 	// 文件ID
